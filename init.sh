@@ -5,5 +5,5 @@ fish -c "omf install bobthefish"
 fish -c "omf install z"
 fish -c "omf install fzf"
 fish -c "omf install pj"
-curl https://hishtory.dev/install.py | python3 -
+# curl https://hishtory.dev/install.py | python3 -
 chsh -s /usr/bin/fish
