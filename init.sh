@@ -4,7 +4,7 @@ sudo sed -i 's/http:/https:/g' /etc/apt/sources.list
 sudo apt-get update
 
 apt-get install -y curl dnsutils iputils-ping wget vim git fish python3
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 # curl https://hishtory.dev/install.py | python3 -
 chsh -s /usr/bin/fish
 
